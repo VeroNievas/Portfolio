@@ -115,17 +115,25 @@ a{
         font-size: 20px;
         letter-spacing: 1px;
         margin: 10px 10px 0 10px; 
-        flex: 1 1 45%;
         background: #ededed6b;
         border-radius: 24px;
         /* background: black; */
         /* opacity: 0.1; */
         
     }
+
     .article img{
-        
-        width: 100%;
+        width: 40%;
+        height: 40%;
+        float: left; 
     }
+
+    .card-body{
+        width: 50%;
+        height: 50%;
+        float:right;
+    } 
+
     .estudios{
         flex: 2 1 auto;  
         display: flex;
