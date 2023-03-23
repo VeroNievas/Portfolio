@@ -59,6 +59,7 @@ a{
     .redsocial{
         flex: 1 1 auto;
         display: flex;
+        align-items: center;
     }
     .redsocial a{
         font-size: 18px;
@@ -67,6 +68,14 @@ a{
     }
     .redsocial a:hover{
         color: #343434;
+    }
+    .boton{
+        display: flex;
+        align-content: center;
+    }
+    .botonlogin{
+        font-weight: bold;
+        border: none;
     }
 
     nav h1{
@@ -182,6 +191,9 @@ a{
         width: 50%;
         height: 50%;
     }
+i{
+    float: right;
+}
  
     .footer{
         text-align: center;
