@@ -53,14 +53,14 @@ a{
     letter-spacing: 2px;
     font-weight: bold;
 }
-    .nav a:hover{
-        color: #343434;
-    }
-    .redsocial{
-        flex: 1 1 auto;
-        display: flex;
-        align-items: center;
-    }
+.nav a:hover{
+    color: #343434;
+}
+.redsocial{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+}
     .redsocial a{
         font-size: 18px;
         color: #000;
